@@ -1,4 +1,4 @@
-Here are all the sources used to write-up the `[1]_rag_setup_overview.ipynb` file:
+### Here are all the sources used to write-up the `[1]_rag_setup_overview.ipynb` file:
 
 1. LangSmith Documentation: https://docs.smith.langchain.com/
 2. RAG Quickstart: https://python.langchain.com/docs/tutorials/rag/
