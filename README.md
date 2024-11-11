@@ -10,7 +10,8 @@ Each notebook provides a detailed, hands-on guide to setting up and experimentin
 ### [1]\_rag_setup_overview.ipynb
 
 This introductory notebook provides an overview of RAG architecture and its foundational setup.
-The notebook walks through: - **Environment Setup**: Configuring the environment, installing necessary libraries, and API setups.
+The notebook walks through: 
+- **Environment Setup**: Configuring the environment, installing necessary libraries, and API setups.
 - **Initial Data Loading**: Basic document loaders and data preprocessing methods.
 - **Embedding Generation**: Generating embeddings using various models, including OpenAI's embeddings.
 - **Vector Store**: Setting up a vector store (ChromaDB/Pinecone) for efficient similarity search.
@@ -18,7 +19,8 @@ The notebook walks through: - **Environment Setup**: Configuring the environment
 
 ### [2]\_rag_with_multi_query.ipynb
 
-Building on the basics, this notebook introduces multi-querying techniques in the RAG pipeline, exploring: - **Multi-Query Setup**: Configuring multiple queries to diversify retrieval.
+Building on the basics, this notebook introduces multi-querying techniques in the RAG pipeline, exploring: 
+- **Multi-Query Setup**: Configuring multiple queries to diversify retrieval.
 - **Advanced Embedding Techniques**: Utilizing multiple embedding models to refine retrieval.
 - **Pipeline with Multi-Querying**: Implementing multi-query handling to improve relevance in response generation.
 - **Comparison & Analysis**: Comparing results with single-query pipelines and analyzing performance improvements.
@@ -27,7 +29,8 @@ Building on the basics, this notebook introduces multi-querying techniques in th
 `notebook wip - coming soon`
 
 This notebook delves deeper into customizing a RAG pipeline.
-It covers: - **Custom Document Loaders**: Building loaders to handle specialized data formats.
+It covers: 
+- **Custom Document Loaders**: Building loaders to handle specialized data formats.
 - **Advanced Text Splitting**: Optimizing text chunking for better retrieval performance.
 - **Fine-Tuned Embedding Models**: Customizing embeddings for domain-specific applications.
 - **Enhanced RAG Pipeline**: Constructing a RAG pipeline that better suits the custom dataset and retrieval needs.
@@ -35,7 +38,8 @@ It covers: - **Custom Document Loaders**: Building loaders to handle specialized
 ### [4]_Customizing_RAG_Pipeline_Part2.ipynb
 `notebook wip - coming soon`
 
-Continuing from the previous customization, this notebook explores: - **Custom Retriever Logic**: Designing retriever algorithms for improved search relevancy.
+Continuing from the previous customization, this notebook explores: 
+- **Custom Retriever Logic**: Designing retriever algorithms for improved search relevancy.
 - **Contextual Prompting**: Crafting prompts dynamically based on retrieved content for better generation.
 - **Evaluation Metrics**: Implementing metrics to evaluate retrieval accuracy and response quality.
 - **Intermediate Testing**: Testing the pipeline's performance on a range of queries and gathering initial results.
@@ -43,7 +47,8 @@ Continuing from the previous customization, this notebook explores: - **Custom R
 ### [5]_Scaling_and_Deploying_RAG_Pipeline.ipynb 
 `notebook wip - coming soon`
 
-This final notebook brings together the RAG system components, with a focus on scalability and optimization: - **Optimized Indexing**: Techniques to speed up indexing and retrieval in large datasets.
+This final notebook brings together the RAG system components, with a focus on scalability and optimization: 
+- **Optimized Indexing**: Techniques to speed up indexing and retrieval in large datasets.
 - **Scalability Testing**: Stress testing the pipeline under high query loads.
 - **Advanced Fine-Tuning**: Fine-tuning both retriever and generator models for peak performance.
 - **Pipeline Deployment**: Preparing the RAG pipeline for deployment, including API setup and server configuration.
