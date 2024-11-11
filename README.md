@@ -92,11 +92,13 @@ This final notebook brings together the RAG system components, with a focus on s
 
     -   Proceed with `[2]_rag_with_multi_query.ipynb`
 
-    -   Then go through `rag_from_scratch_10_and_11.ipynb`
+    `more coming soon`
+    
+    <!-- -   Then go through `rag_from_scratch_10_and_11.ipynb` -->
 
-    -   Continue with `rag_from_scratch_12_to_14.ipynb`
+    <!-- -   Continue with `rag_from_scratch_12_to_14.ipynb` -->
 
-    -   Finish with `rag_from_scratch_15_to_18.ipynb`
+    <!-- -   Finish with `rag_from_scratch_15_to_18.ipynb` -->
 
 ## Usage
 
@@ -108,11 +110,11 @@ After setting up the environment and running the notebooks in sequence, you can:
 2.  **Implement Multi-Querying**:
     Learn how to improve response relevance by introducing multi-querying techniques in `[2]_rag_with_multi_query.ipynb`.
 
-3.  **Customize the RAG Pipeline**:
+<!-- 3.  **Customize the RAG Pipeline**:
     Tailor the RAG pipeline to handle specific datasets and custom retrieval requirements, as explored in `rag_from_scratch_10_and_11.ipynb` and subsequent notebooks.
 
 4.  **Evaluate and Optimize**:
-    Test, evaluate, and deploy the optimized RAG pipeline in `rag_from_scratch_15_to_18.ipynb` for scalable applications.
+    Test, evaluate, and deploy the optimized RAG pipeline in `rag_from_scratch_15_to_18.ipynb` for scalable applications. -->
 
 <!-- ## Citations and Resources
 
@@ -138,5 +140,6 @@ Each notebook references relevant documentation and research materials:
 
 -   **Deployment Best Practices**: [LangChain Deployment Guide](https://langchain.readthedocs.io/en/latest/modules/deployment.html) -->
 
-    
+<br>
+
     Contributor: Taha Ababou
