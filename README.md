@@ -25,33 +25,38 @@ Building on the basics, this notebook introduces multi-querying techniques in th
 - **Pipeline with Multi-Querying**: Implementing multi-query handling to improve relevance in response generation.
 - **Comparison & Analysis**: Comparing results with single-query pipelines and analyzing performance improvements.
 
-### [3]_Customizing_RAG_Pipeline_Part1.ipynb
-`notebook wip - coming soon`
+### [3]_rag_routing_and_query_construction.ipynb
 
 This notebook delves deeper into customizing a RAG pipeline.
 It covers: 
-- **Custom Document Loaders**: Building loaders to handle specialized data formats.
-- **Advanced Text Splitting**: Optimizing text chunking for better retrieval performance.
-- **Fine-Tuned Embedding Models**: Customizing embeddings for domain-specific applications.
-- **Enhanced RAG Pipeline**: Constructing a RAG pipeline that better suits the custom dataset and retrieval needs.
+- **Logical Routing:** Implements function-based routing for classifying user queries to appropriate data sources based on programming languages.
+- **Semantic Routing:** Uses embeddings and cosine similarity to direct questions to either a math or physics prompt, optimizing response accuracy.
+- **Query Structuring for Metadata Filters:** Defines structured search schema for YouTube tutorial metadata, enabling advanced filtering (e.g., by view count, publication date).
+- **Structured Search Prompting:** Leverages LLM prompts to generate database queries for retrieving relevant content based on user input.
+- **Integration with Vector Stores:** Links structured queries to vector stores for efficient data retrieval.
 
-### [4]_Customizing_RAG_Pipeline_Part2.ipynb
-`notebook wip - coming soon`
 
-Continuing from the previous customization, this notebook explores: 
-- **Custom Retriever Logic**: Designing retriever algorithms for improved search relevancy.
-- **Contextual Prompting**: Crafting prompts dynamically based on retrieved content for better generation.
-- **Evaluation Metrics**: Implementing metrics to evaluate retrieval accuracy and response quality.
-- **Intermediate Testing**: Testing the pipeline's performance on a range of queries and gathering initial results.
+### [4]_rag_indexing_and_advanced_retrieval.ipynb
+
+Continuing from the previous customization, this notebook explores:
+- **Preface on Document Chunking:** Points to external resources for document chunking techniques.
+- **Multi-representation Indexing:** Sets up a multi-vector indexing structure for handling documents with different embeddings and representations.
+- **In-Memory Storage for Summaries:** Uses InMemoryByteStore for storing document summaries alongside parent documents, enabling efficient retrieval.
+- **MultiVectorRetriever Setup:** Integrates multiple vector representations to retrieve relevant documents based on user queries.
+- **RAPTOR Implementation:** Explores RAPTOR, an advanced indexing and retrieval model, linking to in-depth resources.
+- **ColBERT Integration:** Demonstrates ColBERT-based token-level vector indexing and retrieval, which captures contextual meaning at a fine-grained level.
+- **Wikipedia Example with ColBERT:** Retrieves information about Hayao Miyazaki using the ColBERT retrieval model for demonstration.
 
 ### [5]_Scaling_and_Deploying_RAG_Pipeline.ipynb 
-`notebook wip - coming soon`
 
 This final notebook brings together the RAG system components, with a focus on scalability and optimization: 
-- **Optimized Indexing**: Techniques to speed up indexing and retrieval in large datasets.
-- **Scalability Testing**: Stress testing the pipeline under high query loads.
-- **Advanced Fine-Tuning**: Fine-tuning both retriever and generator models for peak performance.
-- **Pipeline Deployment**: Preparing the RAG pipeline for deployment, including API setup and server configuration.
+- **Document Loading and Splitting:** Loads and chunks documents for indexing, preparing them for vector storage.
+- **Multi-query Generation with RAG-Fusion:** Uses a prompt-based approach to generate multiple search queries from a single input question.
+- **Reciprocal Rank Fusion (RRF):** Implements RRF for re-ranking multiple retrieval lists, merging results for improved relevance.
+- **Retriever and RAG Chain Setup:** Constructs a retrieval chain for answering queries, using fused rankings and RAG chains to pull contextually relevant information.
+- **Cohere Re-Ranking:** Demonstrates re-ranking with Cohere’s model for additional contextual compression and refinement.
+- **CRAG and Self-RAG Retrieval:** Explores advanced retrieval approaches like CRAG and Self-RAG, with links to examples.
+- **Exploration of Long-Context Impact:** Links to resources explaining the impact of long-context retrieval on RAG models.
 
 ## Getting Started
 
