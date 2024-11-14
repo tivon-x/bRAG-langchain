@@ -120,35 +120,10 @@ After setting up the environment and running the notebooks in sequence, you can:
 2.  **Implement Multi-Querying**:
     Learn how to improve response relevance by introducing multi-querying techniques in `[2]_rag_with_multi_query.ipynb`.
 
-<!-- 3.  **Customize the RAG Pipeline**:
-    Tailor the RAG pipeline to handle specific datasets and custom retrieval requirements, as explored in `rag_from_scratch_10_and_11.ipynb` and subsequent notebooks.
+## Incoming Notebooks (work in progress)
+1. **Context Precision with RAGAS + LangSmith**
+   - Guide on using RAGAS and LangSmith to evaluate context precision, relevance, and response accuracy in RAG.
 
-4.  **Evaluate and Optimize**:
-    Test, evaluate, and deploy the optimized RAG pipeline in `rag_from_scratch_15_to_18.ipynb` for scalable applications. -->
-
-<!-- ## Citations and Resources
-
-Each notebook references relevant documentation and research materials:
-
--   **LangChain Documentation**: [LangChain Docs](https://langchain.readthedocs.io/en/latest/)
-
--   **OpenAI API Documentation**: [OpenAI API](https://beta.openai.com/docs/)
-
--   **ChromaDB Documentation**: Chroma Documentation
-
--   **Pinecone Documentation**: Pinecone Docs
-
--   **Multi-Query Retrieval**: [LangChain Multi-Query Example](https://langchain.readthedocs.io/en/latest/modules/retrievers/examples/multi_query.html)
-
--   **OpenAI Embeddings**: [Embedding Models Overview](https://beta.openai.com/docs/guides/embeddings)
-
--   **Fine-Tuning in RAG**: [Research Paper](https://arxiv.org/abs/2005.11401)
-
--   **RAG Evaluation and Metrics**: [Evaluation Metrics](https://arxiv.org/abs/2005.11401)
-
--   **Scalability Options**: [LangChain Scalability](https://langchain.readthedocs.io/en/latest/modules/scalability.html)
-
--   **Deployment Best Practices**: [LangChain Deployment Guide](https://langchain.readthedocs.io/en/latest/modules/deployment.html) -->
 
 <br>
 
