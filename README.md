@@ -47,7 +47,7 @@ Continuing from the previous customization, this notebook explores:
 - **ColBERT Integration:** Demonstrates ColBERT-based token-level vector indexing and retrieval, which captures contextual meaning at a fine-grained level.
 - **Wikipedia Example with ColBERT:** Retrieves information about Hayao Miyazaki using the ColBERT retrieval model for demonstration.
 
-### [5]_Scaling_and_Deploying_RAG_Pipeline.ipynb 
+### [5]_rag_retrieval_and_reranking.ipynb
 
 This final notebook brings together the RAG system components, with a focus on scalability and optimization: 
 - **Document Loading and Splitting:** Loads and chunks documents for indexing, preparing them for vector storage.
