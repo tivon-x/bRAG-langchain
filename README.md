@@ -7,6 +7,8 @@ Each notebook provides a detailed, hands-on guide to setting up and experimentin
 
 ## Project Structure
 
+The following notebooks can be found under the directory `tutorial_notebooks/`.
+
 ### [1]\_rag_setup_overview.ipynb
 
 This introductory notebook provides an overview of RAG architecture and its foundational setup.
