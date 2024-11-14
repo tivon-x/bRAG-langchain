@@ -127,4 +127,4 @@ After setting up the environment and running the notebooks in sequence, you can:
 
 <br>
 
-    Contributor: Taha Ababou
+    Contributor: Taha Ababou (GitHub: @tahababou12)
