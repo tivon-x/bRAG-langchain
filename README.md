@@ -136,7 +136,8 @@ After setting up the environment and running the notebooks in sequence, you can:
 ## Incoming Notebooks (work in progress)
 1. **Context Precision with RAGAS + LangSmith**
    - Guide on using RAGAS and LangSmith to evaluate context precision, relevance, and response accuracy in RAG.
-
+2. **Deploying RAG application**
+   - Guide on how to deploy your RAG application
 
 <br>
 
