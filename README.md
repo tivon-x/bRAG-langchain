@@ -7,6 +7,10 @@ Each notebook provides a detailed, hands-on guide to setting up and experimentin
 
 ## Project Structure
 
+If you want to jump straight into it, check out the file `full_basic_rag.ipynb` -> this file will give you a boilerplate starter code of a fully customizable RAG chatbot.
+
+Make sure to run your files in a virtual environment (checkout section `Get Started`)
+
 The following notebooks can be found under the directory `tutorial_notebooks/`.
 
 ### [1]\_rag_setup_overview.ipynb
@@ -71,15 +75,22 @@ Pre-requisites: Python 3.11.7 (preferred)
 
     cd bRAG-langchain
     ```
+2. **Create a virtual environment**
+   
+    ```{bash}
+    python -m venv venv
 
-2.  **Install dependencies**: Make sure to install the required packages listed in `requirements.txt`.
+    source venv/bin/activate
+    ```
+   
+3.  **Install dependencies**: Make sure to install the required packages listed in `requirements.txt`.
 
     `pip install -r requirements.txt`
 
-3.  **Run the Notebooks**:
+4.  **Run the Notebooks**:
     Begin with `[1]_rag_setup_overview.ipynb` to get familiar with the setup process. Proceed sequentially through the other notebooks to build and experiment with more advanced RAG concepts.
 
-4.  **Set Up Environment Variables**:
+5.  **Set Up Environment Variables**:
 
     -   Duplicate the `.env.example` file in the root directory and name it `.env` and include the following keys (replace with your actual keys):
 
@@ -99,7 +110,7 @@ Pre-requisites: Python 3.11.7 (preferred)
         PINECONE_API_KEY="your-api-key"
         ```
 
-5.  **Notebook Order**:
+6.  **Notebook Order**:
     To follow the project in a structured manner:
 
     -   Start with `[1]_rag_setup_overview.ipynb`
