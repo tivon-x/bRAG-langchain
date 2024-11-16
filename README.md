@@ -62,12 +62,14 @@ This final notebook brings together the RAG system components, with a focus on s
 
 ## Getting Started
 
+Pre-requisites: Python 3.11.7 (preferred)
+
 1.  **Clone the repository**:
 
     ```{bash}
-    git clone https://github.com/yourusername/RAG_Project.git 
+    git clone https://github.com/bRAGAI/bRAG-langchain.git 
 
-    cd RAG_Project
+    cd bRAG-langchain
     ```
 
 2.  **Install dependencies**: Make sure to install the required packages listed in `requirements.txt`.
@@ -103,14 +105,12 @@ This final notebook brings together the RAG system components, with a focus on s
     -   Start with `[1]_rag_setup_overview.ipynb`
 
     -   Proceed with `[2]_rag_with_multi_query.ipynb`
-
-    `more coming soon`
     
-    <!-- -   Then go through `rag_from_scratch_10_and_11.ipynb` -->
+    -   Then go through `[3]_rag_routing_and_query_construction.ipynb`
 
-    <!-- -   Continue with `rag_from_scratch_12_to_14.ipynb` -->
+    -   Continue with `[4]_rag_indexing_and_advanced_retrieval.ipynb`
 
-    <!-- -   Finish with `rag_from_scratch_15_to_18.ipynb` -->
+    -   Finish with `[5]_rag_retrieval_and_reranking.ipynb`
 
 ## Usage
 
