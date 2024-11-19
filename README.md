@@ -1,10 +1,13 @@
 # Retrieval-Augmented Generation (RAG) Project
 
 `If this project helps you, consider buying me a coffee ☕. Your support helps me keep contributing to the open-source community!`
+<p>
+    <a href="https://buymeacoffee.com/bragai" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white" />
+    </a>
+</p>
 
-<a href="https://buymeacoffee.com/bragai" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white" />
-</a>
+**bRAGAI's official platform will launch soon. <a href="https://bragai.tech/">Join the waitlist</a> to be one of the early adopters!**
 
 ---------------------
 
