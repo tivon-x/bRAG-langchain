@@ -1,13 +1,12 @@
 # Retrieval-Augmented Generation (RAG) Project
 
-<p>
-    <a href="https://buymeacoffee.com/bragai" target="_blank" rel="noopener noreferrer">
-        <img src="https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white" />
-    </a>
-<!--     <a href="#">
-        <img src="https://img.shields.io/github/stars/bRAGAI/bRAG-langchain?style=for-the-badge" />
-    </a> -->
-</p>
+`If this project helps you, consider buying me a coffee ☕. Your support helps me keep contributing to the open-source community!`
+
+<a href="https://buymeacoffee.com/bragai" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white" />
+</a>
+
+---------------------
 
 This repository contains a comprehensive exploration of Retrieval-Augmented Generation (RAG) for various applications.
 Each notebook provides a detailed, hands-on guide to setting up and experimenting with RAG from an introductory level to advanced implementations, including multi-querying and custom RAG builds.
