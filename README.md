@@ -153,5 +153,5 @@ After setting up the environment and running the notebooks in sequence, you can:
 
 <br>
 
-    The notebooks were inspired by Lance Martin's LangChain Tutorial.
+    The notebooks and visual diagrams were inspired by Lance Martin's LangChain Tutorial.
 
