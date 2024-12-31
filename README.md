@@ -151,7 +151,19 @@ After setting up the environment and running the notebooks in sequence, you can:
 2. **Deploying RAG application**
    - Guide on how to deploy your RAG application
 
+## Star History
+
+<a href="https://star-history.com/#bragai/brag-langchain&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=bragai/brag-langchain&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=bragai/brag-langchain&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=bragai/brag-langchain&type=Date" />
+ </picture>
+</a>
+
+<br>
 <br>
 
     The notebooks and visual diagrams were inspired by Lance Martin's LangChain Tutorial.
 
+    
