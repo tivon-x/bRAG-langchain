@@ -7,7 +7,7 @@
     </a>
 </p>
 
-**bRAGAI's official platform will launch soon. <a href="https://bragai.tech/">Join the waitlist</a> to be one of the early adopters!**
+**bRAG AI is launching soon! [Join the waitlist](https://bragai.tech/) to get early access and try it first.**
 
 ---------------------
 
@@ -77,62 +77,136 @@ This final notebook brings together the RAG system components, with a focus on s
 
 ## Getting Started
 
-Pre-requisites: Python 3.11.7 (preferred)
+### Pre-requisites
 
-1.  **Clone the repository**:
+Ensure **Python 3.11.11** (preferred) is installed on your system. Follow the platform-specific instructions below to install it if not already installed.
 
-    ```{bash}
-    git clone https://github.com/bRAGAI/bRAG-langchain.git 
+#### macOS
+1. Install [Homebrew](https://brew.sh/) if not already installed:
+   ```bash
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   ```
+2. Install Python 3.11.11:
+   ```bash
+   brew install python@3.11
+   ```
+3. Verify installation:
+   ```bash
+   python3.11 --version
+   ```
 
-    cd bRAG-langchain
-    ```
-2. **Create a virtual environment**
-   
-    ```{bash}
-    python -m venv venv
+#### Linux
+1. Update your package manager:
+   ```bash
+   sudo apt update
+   ```
+2. Install Python 3.11.11:
+   ```bash
+   sudo apt install python3.11 python3.11-venv
+   ```
+3. Verify installation:
+   ```bash
+   python3.11 --version
+   ```
 
-    source venv/bin/activate
-    ```
-   
-3.  **Install dependencies**: Make sure to install the required packages listed in `requirements.txt`.
+#### Windows
+1. Download the Python 3.11.11 installer from [Python.org](https://www.python.org/downloads/).
+2. Run the installer and ensure you check the box **"Add Python to PATH"**.
+3. Verify installation:
+   ```cmd
+   python --version
+   ```
 
-    `pip install -r requirements.txt`
+---
 
-4.  **Run the Notebooks**:
-    Begin with `[1]_rag_setup_overview.ipynb` to get familiar with the setup process. Proceed sequentially through the other notebooks to build and experiment with more advanced RAG concepts.
+### Installation Instructions
 
-5.  **Set Up Environment Variables**:
+#### 1. Clone the Repository
+```bash
+git clone https://github.com/bRAGAI/bRAG-langchain.git
+cd bRAG-langchain
+```
 
-    -   Duplicate the `.env.example` file in the root directory and name it `.env` and include the following keys (replace with your actual keys):
+#### 2. Create a Virtual Environment
+Use Python 3.11.11 to create a virtual environment:
+```bash
+python3.11 -m venv venv
+```
 
-        ```         
-        #LLM Modal
-        OPENAI_API_KEY="your-api-key"
+Activate the virtual environment:
+- **macOS/Linux**:
+  ```bash
+  source venv/bin/activate
+  ```
+- **Windows**:
+  ```cmd
+  venv\Scripts\activate
+  ```
 
-        #LangSmith
-        LANGCHAIN_TRACING_V2=true
-        LANGCHAIN_ENDPOINT="https://api.smith.langchain.com"
-        LANGCHAIN_API_KEY="your-api-key"
-        LANGCHAIN_PROJECT="your-project-name"
+#### 3. Verify and Fix Python Version
+If the virtual environment defaults to a different Python version (e.g., Python 3.13):
+1. Verify the current Python version inside the virtual environment:
+   ```bash
+   python --version
+   ```
+2. Use Python 3.11 explicitly within the virtual environment:
+   ```bash
+   python3.11
+   ```
+3. Ensure the `python` command uses Python 3.11 by creating a symbolic link:
+   ```bash
+   ln -sf $(which python3.11) $(dirname $(which python))/python
+   ```
+4. Verify the fix:
+   ```bash
+   python --version
+   ```
 
-        #Pinecone Vector Database
-        PINECONE_INDEX_NAME="your-project-index"
-        PINECONE_API_HOST="your-host-url"
-        PINECONE_API_KEY="your-api-key"
-        ```
+#### 4. Install Dependencies
+Install the required packages:
+```bash
+pip install -r requirements.txt
+```
 
-6.  **Notebook Order**:
-    To follow the project in a structured manner:
+---
 
-    -   Start with `[1]_rag_setup_overview.ipynb`
+### Additional Steps
 
-    -   Proceed with `[2]_rag_with_multi_query.ipynb`
-    
-    -   Then go through `[3]_rag_routing_and_query_construction.ipynb`
+#### 5. Run the Notebooks
+Begin with `[1]_rag_setup_overview.ipynb` to get familiar with the setup process. Proceed sequentially through the other notebooks:
 
-    -   Continue with `[4]_rag_indexing_and_advanced_retrieval.ipynb`
+- `[1]_rag_setup_overview.ipynb`
+- `[2]_rag_with_multi_query.ipynb`
+- `[3]_rag_routing_and_query_construction.ipynb`
+- `[4]_rag_indexing_and_advanced_retrieval.ipynb`
+- `[5]_rag_retrieval_and_reranking.ipynb`
 
-    -   Finish with `[5]_rag_retrieval_and_reranking.ipynb`
+#### 6. Set Up Environment Variables
+1. Duplicate the `.env.example` file in the root directory and rename it to `.env`.
+2. Add the following keys (replace with your actual values):
+
+   ```env
+   # LLM Model - Get key at https://platform.openai.com/api-keys
+   OPENAI_API_KEY="your-api-key"
+
+   # LangSmith - Get key at https://smith.langchain.com
+   LANGCHAIN_TRACING_V2=true
+   LANGCHAIN_ENDPOINT="https://api.smith.langchain.com"
+   LANGCHAIN_API_KEY="your-api-key"
+   LANGCHAIN_PROJECT="your-project-name"
+
+   # Pinecone Vector Database - Get key at https://app.pinecone.io
+   PINECONE_INDEX_NAME="your-project-index"
+   PINECONE_API_HOST="your-host-url"
+   PINECONE_API_KEY="your-api-key"
+
+   # Cohere - Get key at https://dashboard.cohere.com/api-keys
+   COHERE_API_KEY=your-api-key
+   ```
+
+---
+
+You're now ready to use the project!
 
 ## Usage
 
