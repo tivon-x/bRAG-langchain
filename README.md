@@ -22,7 +22,7 @@ If you want to jump straight into it, check out the file `full_basic_rag.ipynb` 
 
 Make sure to run your files in a virtual environment (checkout section `Get Started`)
 
-The following notebooks can be found under the directory `tutorial_notebooks/`.
+The following notebooks can be found under the directory `notebooks/`.
 
 ### [1]\_rag_setup_overview.ipynb
 
