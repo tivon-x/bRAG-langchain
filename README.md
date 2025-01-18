@@ -116,7 +116,6 @@ Ensure **Python 3.11.11** (preferred) is installed on your system. Follow the pl
    ```cmd
    python --version
    ```
-
 ---
 
 ### Installation Instructions
