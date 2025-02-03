@@ -7,7 +7,7 @@
     </a>
 </p>
 
-**bRAG AI is launching soon! [Join the waitlist](https://bragai.tech/) to get early access and try it first.**
+**bRAG AI is launching soon! [Join the waitlist](https://bragai.dev/) to get early access and try it first.**
 
 ---------------------
 
