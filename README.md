@@ -217,13 +217,6 @@ After setting up the environment and running the notebooks in sequence, you can:
 2.  **Implement Multi-Querying**:
     Learn how to improve response relevance by introducing multi-querying techniques in `[2]_rag_with_multi_query.ipynb`.
 
-
-## Incoming Notebooks (work in progress)
-1. **Context Precision with RAGAS + LangSmith**
-   - Guide on using RAGAS and LangSmith to evaluate context precision, relevance, and response accuracy in RAG.
-2. **Deploying RAG application**
-   - Guide on how to deploy your RAG application
-
 ## Star History
 
 <a href="https://star-history.com/#bragai/brag-langchain&Date">
@@ -235,8 +228,7 @@ After setting up the environment and running the notebooks in sequence, you can:
 </a>
 
 ## Contact
-Do you have questions or want to collaborate? Please open an issue or email Taha Ababou at taha@bragai.tech
-
+Do you have questions or want to collaborate? Please open an issue or email Taha Ababou at taha@bragai.dev
 
 <br>
 
