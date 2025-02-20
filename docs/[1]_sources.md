@@ -8,6 +8,6 @@
 6. Document Loaders: https://python.langchain.com/docs/integrations/document_loaders/
 7. Splitter: https://python.langchain.com/docs/how_to/recursive_text_splitter/
 8. Vectorstores: https://python.langchain.com/docs/integrations/vectorstores/
-9. RAG Chains: https://python.langchain.com/docs/expression_language/get_started#rag-search-example
+9. RAG Chains: https://python.langchain.com/docs/how_to/sequence/
 
 These links provide additional resources and documentation related to the concepts discussed in the file.
