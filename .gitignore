@@ -1,3 +1,4 @@
 .env
 venv/
 .ragatouille/
+.DS_Store
