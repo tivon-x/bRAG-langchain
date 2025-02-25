@@ -1,13 +1,8 @@
 # Retrieval-Augmented Generation (RAG) Project
 
-`If this project helps you, consider buying me a coffee ☕. Your support helps me keep contributing to the open-source community!`
-<p>
-    <a href="https://buymeacoffee.com/bragai" target="_blank" rel="noopener noreferrer">
-        <img src="https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white" />
-    </a>
-</p>
+**_Think it. Build it. bRAG it._ 🚀 bRAGAI's coming soon (🤫)**
 
-**bRAG AI is launching soon! [Join the waitlist](https://bragai.dev/) to get early access and try it first.**
+**[Join the waitlist](https://bragai.dev/)** for exclusive early access, be among the first to try your AI-powered full-stack development assistant, and transform ideas into production-ready web apps in minutes.
 
 ---------------------
 
@@ -229,6 +224,13 @@ After setting up the environment and running the notebooks in sequence, you can:
 
 ## Contact
 Do you have questions or want to collaborate? Please open an issue or email Taha Ababou at taha@bragai.dev
+
+`If this project helps you, consider buying me a coffee ☕. Your support helps me keep contributing to the open-source community!`
+<p>
+    <a href="https://buymeacoffee.com/bragai" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white" />
+    </a>
+</p>
 
 <br>
 
