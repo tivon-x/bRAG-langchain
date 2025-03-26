@@ -222,6 +222,10 @@ After setting up the environment and running the notebooks in sequence, you can:
  </picture>
 </a>
 
+## Upcoming Notebooks
+
+👨🏻‍💻 **[MistralOCR](https://mistral.ai/news/mistral-ocr) + RAG Integration**
+
 ## Contact
 Do you have questions or want to collaborate? Please open an issue or email Taha Ababou at taha@bragai.dev
 
